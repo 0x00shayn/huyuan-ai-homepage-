@@ -33,10 +33,9 @@ const Navbar = () => {
       <div className="container mx-auto px-8 flex justify-between items-center">
         <div className="flex items-center gap-3 group cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <img 
-            src="https://images.weserv.nl/?url=r.jina.ai/i/61908f9f213e4b76a66b96e4922ded55" 
+            src="/logo.png" 
             alt="Logo" 
             className="h-10 w-auto object-contain transition-transform group-hover:scale-105"
-            referrerPolicy="no-referrer"
           />
           <span className="font-sans font-medium text-xl tracking-wide text-white uppercase">互远AI</span>
         </div>
@@ -275,7 +274,7 @@ const App: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-16 mb-24">
             <div className="md:col-span-4">
               <div className="flex items-center gap-3 mb-8">
-                <img src="https://images.weserv.nl/?url=r.jina.ai/i/61908f9f213e4b76a66b96e4922ded55" alt="Logo" className="h-8 w-auto object-contain" referrerPolicy="no-referrer" />
+                <img src="/logo.png" alt="Logo" className="h-8 w-auto object-contain" />
                 <span className="font-sans font-medium text-xl tracking-wide text-white uppercase">互远AI</span>
               </div>
               <p className="text-stone-400 leading-relaxed mb-8 max-w-xs">
@@ -314,7 +313,7 @@ const App: React.FC = () => {
               <div className="space-y-6 text-sm text-stone-400">
                 <div className="flex gap-4">
                   <MapPin size={18} className="shrink-0 text-stone-600" />
-                  <span>中国 · 北京市<br />朝阳区核心研发中心</span>
+                  <span>中国 · 北京市<br />石景山区</span>
                 </div>
                 <div className="flex gap-4">
                   <Phone size={18} className="shrink-0 text-stone-600" />
